@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Saya</title>
+    <style>
+        /* Gaya Visual (CSS) */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 2rem 0;
+        }
+        .hero {
+            text-align: center;
+            background: #f4f4f4;
+            padding: 50px 20px;
+            border-radius: 10px;
+        }
+        .btn {
+            display: inline-block;
+            background: #e74c3c;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .btn:hover {
+            background: #c0392b;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: #2c3e50;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Selamat Datang di Website Saya</h1>
+    </header>
+
+    <div class="container">
+        <section class="hero">
+            <h2>Halo! Ini adalah proyek pertama saya.</h2>
+            <p>Saya sedang belajar membangun website yang responsif dan menarik menggunakan bantuan AI.</p>
+            <a href="#" class="btn">Pelajari Lebih Lanjut</a>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Dibuat dengan semangat oleh Gemini</p>
+    </footer>
+
+</body>
+</html>
